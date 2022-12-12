@@ -33,6 +33,7 @@ public class SwaggerConfig {
                 .build().apiInfo(buildApiIngo());
     }
 
+
     private ApiInfo buildApiIngo() {
         return new ApiInfoBuilder()
                 .title(API_TITULO)
